@@ -1,3 +1,7 @@
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>
+  return <div>
+    <button>Increase Counter</button>
+    <button>Decrease Counter</button>
+    <h1>0</h1>
+  </div>
 }
